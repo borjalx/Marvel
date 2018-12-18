@@ -16,8 +16,12 @@ public class Enemy extends Person{
 
 
     //Constructors
-    public Enemy(String name, String debility) {
-        super();
+    public Enemy() {
+    }
+
+    public Enemy(String name, String debility, int level, Place place) {
+        this.place = place;
+        this.level = level;
         this.name = name;
         this.debility = debility;
     }
@@ -58,7 +62,7 @@ public class Enemy extends Person{
     //To String
     @Override
     public String toString() {
-        return "Enemigo => " + "Nombre = " + name + " | Debilidad = " + debility + " | Nivel = " + level + " | Lugar = " + place + "|";
+        return "Enemigo => " + "Nombre = " + name + " | Debilidad = " + debility + " | Nivel = " + level + " | Lugar = " + place + '}';
     }
     
     

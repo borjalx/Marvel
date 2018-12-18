@@ -15,4 +15,5 @@ public class Person {
     protected Place place;
     
     
+    
 }
