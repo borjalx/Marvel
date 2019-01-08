@@ -20,12 +20,12 @@ public class User extends Person{
     public User() {
     }
     
-    public User(String username, String pass, Superhero superhero, int points, int level, Place place) {
+    public User(String username, String pass, Superhero superhero, Place place) {
         this.username = username;
         this.pass = pass;
         this.superhero = superhero;
-        this.points = points;
-        this.level = level;
+        this.points = 0;
+        this.level = 1;
         this.place = place;
     }
     
