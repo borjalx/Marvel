@@ -20,6 +20,24 @@ public class User extends Person{
     public User() {
     }
     
+    public User(String username){
+        this.username = username;
+        this.pass = "";
+        this.superhero = new Superhero();
+        this.points = 0;
+        this.level = 1;
+        this.place = new Place();
+    }
+    
+    public User(String username, String pass){
+        this.username = username;
+        this.pass = pass;
+        this.superhero = new Superhero();
+        this.points = 0;
+        this.level = 1;
+        this.place = new Place();
+    }
+    
     public User(String username, String pass, Superhero superhero, Place place) {
         this.username = username;
         this.pass = pass;

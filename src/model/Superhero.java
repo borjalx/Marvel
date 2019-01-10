@@ -23,6 +23,11 @@ public class Superhero {
         this.superpower = superpower;
     }
     
+    public Superhero(String name) {
+        this.name = name;
+        this.superpower = "";
+    }
+    
     //Getters y Setters
 
     public String getName() {

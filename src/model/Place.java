@@ -28,6 +28,15 @@ public class Place {
         this.west = west;
     }
 
+    public Place(String name){
+        this.name = name;
+        this.description = "";
+        this.north = "";
+        this.south = "";
+        this.east = "";
+        this.west = "";
+    }
+    
     public Place() {
     }
 
