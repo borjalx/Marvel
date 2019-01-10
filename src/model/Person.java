@@ -11,8 +11,10 @@ package model;
  */
 public class Person {
     
+    protected String name;
     protected int level;
     protected Place place;
+
     
     
     
